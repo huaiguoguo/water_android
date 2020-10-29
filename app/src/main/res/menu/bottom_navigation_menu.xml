@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/device"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@drawable/device"
+        android:title="@string/device"/>
+
+    <item
+        android:id="@+id/worker_order"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@drawable/worker_order"
+        android:title="@string/worker_order"/>
+
+    <item
+        android:id="@+id/waring"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@drawable/waring"
+        android:title="@string/waring"/>
+
+    <item
+        android:id="@+id/mine"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@drawable/mine"
+        android:title="@string/mine"/>
+
+</menu>
