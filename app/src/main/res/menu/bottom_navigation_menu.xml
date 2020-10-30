@@ -2,28 +2,28 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/device"
+        android:id="@+id/device_menu"
         android:enabled="true"
         android:visible="true"
         android:icon="@drawable/device"
         android:title="@string/device"/>
 
     <item
-        android:id="@+id/worker_order"
+        android:id="@+id/worker_order_menu"
         android:enabled="true"
         android:visible="true"
         android:icon="@drawable/worker_order"
         android:title="@string/worker_order"/>
 
     <item
-        android:id="@+id/waring"
+        android:id="@+id/waring_menu"
         android:enabled="true"
         android:visible="true"
         android:icon="@drawable/waring"
         android:title="@string/waring"/>
 
     <item
-        android:id="@+id/mine"
+        android:id="@+id/mine_menu"
         android:enabled="true"
         android:visible="true"
         android:icon="@drawable/mine"
