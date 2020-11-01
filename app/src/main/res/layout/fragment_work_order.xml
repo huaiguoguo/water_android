@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WorkOrderFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".WorkOrderFragment"
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/worker_order"
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="这是工单管理页面" />
+        android:layout_height="50dp"
+        app:tabMode="scrollable"
+        app:tabIndicatorColor="#fff"
+        app:tabIndicatorHeight="2dp"
+        app:tabSelectedTextColor="#fff"
+        app:tabTextColor="#F5F5F5"
+        android:background="?attr/colorPrimary" />
 
-</FrameLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
