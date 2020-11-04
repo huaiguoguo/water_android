@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Water</string>
+    <string name="app_name">水净</string>
     <string name="mine">个人中心</string>
     <string name="waring">报警预警</string>
     <string name="worker_order">工单管理</string>

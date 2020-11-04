@@ -12,6 +12,5 @@
         android:gravity="center"
         android:text="维修工单" />
 
-    <include layout="@layout/map_view"/>
 
 </LinearLayout>

@@ -3,12 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/device"
+    <include
+        layout="@layout/map_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="这是设备页面"/>
+        android:layout_height="match_parent" />
 
 </FrameLayout>
